@@ -1,0 +1,16 @@
+
+LoginPage:
+  userna: userNum
+  passwd: userPw
+  submit: //*[@id="in1"]
+
+
+CustomerPage:
+  frame:
+  customerNa: customerName
+  customerEm: customerBirthday
+  customerEd: customerAddMan
+  customerSu: /html/body/form/table[2]/tbody/tr/td[2]/input
+  customerinfoEdit: /html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input
+
+
